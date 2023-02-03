@@ -3,4 +3,6 @@ project(learning_opengl)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(learning_opengl main.cpp)
+include_directories(./include)
+
+add_executable(learning_opengl src/main.cpp)
